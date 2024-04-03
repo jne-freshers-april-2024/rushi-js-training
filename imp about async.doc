@@ -1,0 +1,29 @@
+Q) which concept was initially introduce for handling asynchronous communication in js
+->
+   
+The concept initially introduced for handling asynchronous communication in JavaScript was callback functions. Callback functions are functions 
+passed as arguments to other functions and are executed once an asynchronous operation completes.In the early days of JavaScript, callback functions
+were the primary mechanism for managing asynchronous operations such as AJAX requests, file I/O, and timer events. When an asynchronous operation 
+completed, it would invoke the callback function provided by the developer, allowing them to handle the result or perform additional actions.
+While callback functions served as a basic tool for handling asynchronous communication, they had limitations, such as callback hell (nested callbacks 
+leading to unreadable code), lack of error handling, and difficulty in managing asynchronous control flow. Despite these limitations, callback functions
+paved the way for more advanced asynchronous patterns and concepts in JavaScript, such as Promises, async/await, and event emitters.
+These newer patterns built upon the foundation laid by callback functions and addressed many of their shortcomings, leading to more robust and
+maintainable code for handling asynchronous communication in JavaScript.
+
+
+
+Q) which way was introduce after callback for async in js
+->
+
+After callback functions, Promises were introduced as a more structured and manageable way to handle asynchronous operations in JavaScript.
+Promises provide a cleaner and more readable syntax compared to callback functions, and they offer built-in error handling and support for
+chaining asynchronous operations. Promises were standardized in ECMAScript 6 (ES6) and became widely adopted in modern JavaScript development.
+They introduced a new approach to handling asynchronous code, allowing developers to write more maintainable and scalable applications.
+
+
+Q) async/await
+->
+
+    To achieve asynchronous communication, async/await is the most popular way now a days. 
+    
