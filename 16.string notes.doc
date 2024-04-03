@@ -1,0 +1,6 @@
+1) String is sequence of characters 
+2) String is index based
+3) String is Primitive type
+4) String is immutable type in js means we can't make changes in variable
+5) we can also compare to different strings by using <,>,<=,>=,==,!=
+6) 
