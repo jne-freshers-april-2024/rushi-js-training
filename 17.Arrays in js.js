@@ -14,8 +14,8 @@ let arr2 = [1,2,3,4,5,6,7,8,9]      // Array with elements
 // console.log(arr2[0])
 
 
-// 4. Properties and Methods in array
 
+// 4. Properties and Methods in array
 // console.log("Length of array :",arr2.length);
 
 
@@ -81,4 +81,4 @@ let arr2 = [1,2,3,4,5,6,7,8,9]      // Array with elements
 // used to access every element of array one by one
 // Takes callback as an argument
 
-console.log(arr2)
+// console.log(arr2)
